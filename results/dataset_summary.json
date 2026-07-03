@@ -1,0 +1,17 @@
+{
+  "raw_comments": 1000,
+  "raw_label_distribution": {
+    "negative": 752,
+    "positive": 173,
+    "neutral": 75
+  },
+  "binary_setup": "Neutral comments removed; positive class upsampled to match negative class.",
+  "balanced_label_distribution": {
+    "negative": 752,
+    "positive": 752
+  },
+  "data_source": "Reddit comments about Android Galaxy / Samsung Galaxy S25",
+  "best_traditional_model": "Support Vector Classifier with TF-IDF",
+  "best_f1_score": 97.07,
+  "lstm_accuracy": 85.84
+}
